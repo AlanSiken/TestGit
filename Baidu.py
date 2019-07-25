@@ -1,9 +1,9 @@
 # -*- coding: UTF-8 -*-
 from aip import AipOcr
 #定义常规变量
-APP_ID = '16874087'
-API_KEY = 'SFVcA25MYDvtGbe1es528ABt'
-SECRET_KEY = 'ypiBXMONdYmVpAwY5Y6jZ84UmgZE5MGn'
+APP_ID = 'xxxx'
+API_KEY = 'xxxx' 
+SECRET_KEY = 'xxxxx'
 aipOcr = AipOcr(APP_ID, API_KEY, SECRET_KEY)#初始化AipFace对象
 
 def Get_File_Contnet(IMG_Path):
